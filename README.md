@@ -22,27 +22,27 @@ $ docker-compose up
 
 ## その他コマンド一覧
 - コンテナの停止  
-```console
+```
 $ docker-compose stop
 ```
 - コンテナの作成と起動を同時に行う場合
-```console
+```
 $ docker-compose up --build
 ```
 - コンテナを停止して削除する場合
-```console
+```
 $ docker-compose down
 ```
 - バックエンドで起動する場合
-```console
+```
 $ docker-compose up -d
 ```
 または
-```console
+```
 $ docker-compose up --build -d
 ```
 - バックエンドで起動しているコンテナ内に入る場合
-```console
+```
 $ docker-compose exec ml_dev bash
 ```
 
