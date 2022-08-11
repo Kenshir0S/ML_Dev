@@ -1,6 +1,6 @@
 # 機械学習開発環境<br>(Machine Learning Development environment)
 
-Dockerを使って、環境によらない機械学習用の開発環境(jupyter lab)を作成します。  
+Dockerを使って、環境によらない機械学習用の開発環境(JupyterLab)を作成します。  
 サブモジュールとしてもお使いください。  
 また、ローカルのカレントディレクトリとコンテナの/optがリンク(マウント)してますので、コンテナを削除してもカレントディレクトリやディレクトリ内のファイルはローカルに残ります。
 
@@ -16,7 +16,7 @@ $ docker-compose build
 ```console
 $ docker-compose up
 ```
-### 3. jupyterlabにアクセス  
+### 3. JupyterLabにアクセス  
 ウェブブラウザから「*localhost:8888*」にアクセスしてください。  
 ※ポート番号*8888*を既に使用している場合は、docker-compose.ymlの「ports:」を「<空いているポート>:8888」と変更して、再度コンテナを作成し、起動してください。そして、ウェブブラウザから「localhost:<空いていたポート>」にアクセスしてください。
 
