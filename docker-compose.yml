@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  ml_dev:
+    build: .
+    platform: linux/amd64
+    volumes:
+      - $PWD:/opt
+    ports:
+      - 8888:8888
+    tty: true
+    stdin_open: true
