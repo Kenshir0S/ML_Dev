@@ -41,7 +41,7 @@ $ docker-compose up -d
 ```
 $ docker-compose up --build -d
 ```
-- バックエンドで起動しているコンテナ内に入る場合
+- バックエンドで起動しているor新しくターミナルのタブを開いてコンテナ内に入る場合
 ```
 $ docker-compose exec ml_dev bash
 ```
@@ -62,4 +62,4 @@ requirements.txtにも記載しています。
 - tensorflow
 - torch
 
-### &copy; 2022 Kenshiro Sawaguchi
+#### &copy; 2022 Kenshiro Sawaguchi
