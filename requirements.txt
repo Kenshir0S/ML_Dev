@@ -1,3 +1,4 @@
+japanize_matplotlib
 jupyterlab
 keras
 matplotlib

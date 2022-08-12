@@ -50,6 +50,7 @@ $ docker-compose exec ml_dev bash
 requirements.txtにも記載しています。  
 パッケージを追加する際は、requirements.txtに追記して、再度コンテナを作成してください。  
 再度コンテナを作成したくない方は、コンテナ内で「pip install」を実行してください。  
+- japanize_matplotlib
 - jupyterlab
 - keras
 - matplotlib
